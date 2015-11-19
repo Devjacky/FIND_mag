@@ -1,163 +1,161 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="FIND is a community service organization aimed towards helping anyone with disabilities.">
-    <meta name="author" content="FIND.co, Jack Park">
+    <meta name="description" content="FIND magazine is a community service organization dedicated to voicing the opinions of the disabled.">
+    <meta name="author" content="Jack(KH) Park, FINDmag">
 
-    <title>FIND Magazine</title>
-
+    <title>FIND - voicing the opinions of the disabled</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/grayscale.css" rel="stylesheet">
-
-    <!-- Fonts -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-    <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-
+    <link href="css/findmag.css" rel="stylesheet">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-
 </head>
 
-<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+<body>
+  <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+      <div class="container">
+          <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                  <i class="fa fa-bars"></i>
+              </button>
+              <a class="navbar-brand page-scroll" href="#page-top">
+                  <i class="fa fa-heart"></i>   FIND <span class="light">Magazine</span>
+              </a>
+          </div>
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+          <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+              <ul class="nav navbar-nav">
+                  <li class="hidden">
+                      <a href="#page-top"></a>
+                  </li>
+                  <li>
+                      <a class="page-scroll" href="#home">Home</a>
+                  </li>
+                  <li>
+                      <a class="page-scroll" href="#about">About</a>
+                  </li>
+                  <li>
+                      <a class="page-scroll" href="#subscribe">Subscribe!</a>
+                  </li>
+              </ul>
+          </div>
+      </div>
+  </nav>
+
+
+    <!-- Header -->
+    <a name="home"></a>
+    <div class="intro-header">
         <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
-                    <i class="fa fa-bars"></i>
-                </button>
-                <a class="navbar-brand page-scroll" href="#page-top">
-                    <i class="fa fa-heart"></i>   FIND <span class="light">Magazine</span>
-                </a>
-            </div>
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
-                <ul class="nav navbar-nav">
-                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#about">About</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#download">Subscribe</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#contact">Support Us!</a>
-                    </li>
-                </ul>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="intro-message">
+                        <h1>What is <span style="color:#ffa500">FIND</span>?</h1>
+                        <h3><span style="color:#ffa500">F</span>or <span style="color:#ffa500">IN</span>dividuals with <span style="color:#ffa500">D</span>isabilities</h3>
+                        <hr class="intro-divider">
+                        <h4>장애를 가진 분들을 위한 봉사단체입니다.</h5>
+                    </div>
+                    <a href="#about" class="btn btn-circle page-scroll">
+                      <i class="fa fa-angle-double-down animated"></i>
+                    </a>
+                </div>
             </div>
-            <!-- /.navbar-collapse -->
         </div>
         <!-- /.container -->
-    </nav>
+    </div>
+    <!-- /.intro-header -->
 
-    <!-- Intro Header -->
-    <header class="intro">
-        <div class="intro-body">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-8 col-md-offset-2">
-                      <div class="textGroup">
-                        <h1 class="brand-heading"><span style="color:#ffa500">FIND</span>?</h1>
-                        <p class="intro-text"><span style="color:#ffa500">F</span>or <span style="color:#ffa500">In</span>dividuals with <span style="color:#ffa500">D</span>isabilities<br>장애를 가진 분들을 위한 봉사단체입니다.</p>
-                      </div>
-                        <a href="#about" class="btn btn-circle page-scroll">
-                            <i class="fa fa-angle-double-down"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
+    <!-- Page Content -->
 
-    <!-- About Section -->
-    <section id="about" class="container content-section text-center">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-              <div class="textGroup">
-                <h2>What is FIND?</h2>
-                <p>FIND는 한영외고 학생들이 시작한 봉사단체입니다.</p>
-                <p>한국에서 장애로 고통받고 있는 분들에 대한 인식을 고치고자하는 바램에서 시작되었습니다.</p>
-                <p>FIND는 <a href="#">FIND Magazine</a>을 통해서 이런 분들의 목소리를 대신 전하고있습니다</p>
-              </div>
-                <a href="http://startbootstrap.com/template-overviews/grayscale/" class="btn btn-default btn-lg">Find out more!</a>
-            </div>
-        </div>
-    </section>
-
-    <!-- Download Section -->
-    <section id="download" class="content-section text-center">
-        <div class="download-section">
-            <div class="container">
+	<a name="about"></a>
+    <div class="content-section-a">
+        <div class="container">
+            <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
-                    <h2>Subscribe to FIND Magazine!</h2>
-                  <div class="textGroup">
-                    <p>아래 다운로드 링크를 통해서 FIND magazine과 다른 newsletter을 구독하실 수 있습니다.</p>
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">What is FIND?<br>어떤 활동을 하는 단체인가요?</h2>
+                    <div class="textgroup">
+                      <p class="lead">FIND는 한영외고 학생들이 시작한 봉사단체입니다.</p>
+                      <p class="lead">한국에서 장애로 고통받고 있는 분들에 대한 인식을 고치 고자하는 바램에서 시작되었습니다.</p>
+                      <p class="lead">FIND는 <strong>전하기</strong>나 <strong>소리책</strong> 활동을 통해서 이런 분들의 목소리를 대신 전하고있습니다.</p>
+                    </div>
+                    <a href="http://findmagazine.about.getforge.io" class="btn btn-default btn-lg">Find out more!</a>
                   </div>
-                    <a href="http://startbootstrap.com/template-overviews/grayscale/" class="btn btn-default btn-lg">Subscribe Today!</a>
+            </div>
+        </div>
+        <!-- /.container -->
+    </div>
+    <!-- /.content-section-a -->
+
+  <a name="subscribe"></a>
+    <div class="content-section-b">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">Subscribe to<br>FIND Magazine!</h2>
+                    <div class="textgroup">
+                      <p class="lead">아래 다운로드 링크를 통해서 FIND magazine의 <strong>전하기</strong>와 newsletter을 구독하실 수 있습니다.</p>
+                    </div>
+                    <a href="http://findmagazine.about.getforge.io#contact" class="btn btn-default btn-lg">Subscribe Today!</a>
                 </div>
             </div>
-        </div>
-    </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="container content-section text-center">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-                <h2>Contact Us</h2>
-                <p>궁금하신 점이 있으시면 언제든지 연락해주세요!</p>
-                <p><a href="mailto:feedback@startbootstrap.com">greeneko@gmail.com</a>
-                </p>
-                <ul class="list-inline banner-social-buttons">
-                    <li>
-                        <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
-                    </li>
-                    <li>
-                        <a href="https://github.com/IronSummitMedia/startbootstrap" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Facebook</span></a>
-                    </li>
-                    <li>
-                        <a href="https://plus.google.com/+Startbootstrap/posts" class="btn btn-default btn-lg"><i class="fa fa-google-plus fa-fw"></i> <span class="network-name">Google+</span></a>
-                    </li>
-                </ul>
-            </div>
         </div>
-    </section>
+        <!-- /.container -->
 
-    <!-- Footer -->
+    </div>
+    <!-- /.content-section-b -->
+
     <footer>
-        <div class="container text-center">
-            <p>Copyright &copy; FIND magazine 2015</p>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <ul class="list-inline text-center">
+                        <li>
+                            <a href="http://www.twitter.com/findmagpage">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://www.facebook/findmagpage">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="mailto:findmagjun@gmail.com">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                    <p class="copyright text-muted">Copyright &copy; FIND Magazine 2015</p>
+                </div>
+            </div>
         </div>
     </footer>
 
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-
-    <!-- Plugin JavaScript -->
+    <script src="js/findmag.js"></script>
     <script src="js/jquery.easing.min.js"></script>
-
-
-
-    <!-- Custom Theme JavaScript -->
-    <script src="js/grayscale.js"></script>
-
 </body>
-
 </html>
