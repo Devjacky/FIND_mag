@@ -78,6 +78,14 @@ h6 {
     }
 }
 
+@media(min-width:768px) {
+    p {
+        margin: 0 0 35px;
+        font-size: 20px;
+        line-height: 1.6;
+    }
+}
+
 
 
 .btn-circle {
@@ -155,6 +163,7 @@ h6 {
     background: url(../img/one.jpg) no-repeat center center fixed;
     text-align: center;
     text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    margin-top: 100px;
 
 }
 
