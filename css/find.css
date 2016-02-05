@@ -1,0 +1,104 @@
+header {
+  display: block;
+  background-color: #000;
+}
+
+.header .brand {
+  background-color: transparent;
+  background-image: url(../images/find-logo.jpg);
+  background-position: left center;
+  background-repeat: no-repeat;
+  background-size: 114px 88px;
+  cursor: pointer;
+  height: 80px;
+  opacity: 1;
+  -webkit-transition: all .3s ease 0;
+  -moz-transition: all .3s ease 0;
+  -ms-transition: all .3s ease 0;
+  -o-transition: all .3s ease 0;
+  transition: all .3s ease 0;
+}
+
+.header .brand:hover {
+  opacity: 0.9;
+}
+
+
+.header .static-nav {
+  display: block;
+  margin-top: 29px;
+  text-align: right;
+}
+
+.header .static-nav li {
+  color: #fff;
+  cursor: pointer;    /* hmmm */
+  display: inline-block;
+  font-size: 16px;
+  margin-bottom: 0px;
+  margin-right: 55px;
+  -webkit-transition: all .3s ease 0;
+  -moz-transition: all .3s ease 0;
+  -ms-transition: all .3s ease 0;
+  -o-transition: all .3s ease 0;
+  transition: all .3s ease 0;
+}
+
+.header .static-nav li:last-child { /* hmm */
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+
+/* mobile nav menu */
+
+.header .menu {
+  background-color: transparent;
+  background-image: url(../images/misc/mobile-navigation.png);
+  background-position: right center;
+  background-repeat: no-repeat;
+  background-size: 18px 12px;
+  border: none;
+  cursor: pointer;
+  display: none;
+  height: 12px;
+  opacity: 0.5;
+  position: absolute;
+  text-indent: 9999px;
+  top: 28px;
+  width: 18px;
+  -webkit-transition: all .3s ease 0;
+  -moz-transition: all .3s ease 0;
+  -ms-transition: all .3s ease 0;
+  -o-transition: all .3s ease 0;
+  transition: all .3s ease 0;
+}
+
+.header .menu:hover {
+  opacity: 1;
+}
+
+/* end mobile nav menu consider using */
+
+
+
+
+/* end header */
+
+.section {
+  padding: 15rem 0 40rem;
+  text-align: center;
+}
+.section-heading,
+.section-description {
+  margin-bottom: 2rem;
+}
+
+.hero {
+  background-image: url('../images/hero-image.jpg');
+  background-size: cover;
+  color: #fff;
+}
+.hero .section-description {
+  margin-bottom: 4rem;
+}
